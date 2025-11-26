@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Receita Federal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('./fundo\ 2.png');
+            padding:0;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+            
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        button {
+            background-color: #006eff;
+            color: rgb(255, 255, 255);
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #desenvolvedores{
+        width: 200px; 
+        margin-top: 400px; 
+        margin-bottom: 20px; 
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        #unisepe{
+        width: 200px; 
+        margin-top: 400px; 
+        margin-bottom: 20px; 
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz da Receita Federal</h1>
+        <p></p>
+        <p class="30perguntas">São 30 perguntas pondendo ser sobre Aduana, Tributos ou Assuntos Gerais </p>
+        <a href="index.html"> <button onclick="startQuiz()">INICIAR O QUIZ</button></a>
+    </div>
+    
+   
+       <a href="https://portal.unisepe.com.br"  target="_blank"><button id="unisepe">Unisepe</button></a>
+
+       <a href="desenvolvedores.html" target="_blank"><button id="desenvolvedores">Desenvolvedores</button></a>
+    
+
+</body>
+</html>

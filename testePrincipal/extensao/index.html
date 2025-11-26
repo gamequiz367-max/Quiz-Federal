@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ RECEITA FEDERAL</title>
+
+    <link rel="stylesheet" href="/extensao/style.css">
+
+</head>
+<body>
+
+<h2>QUIZ RECEITA FEDERAL</h2>
+<main>
+    <div class="content">
+        <span class="spnQtd"></span>
+        <div class="question"></div>
+        <div class="answers"></div>
+    </div>
+
+    <div class="finish">
+        <span></span> 
+        
+        <div class="score-input-container">
+            <h3>Quiz Finalizado!</h3>
+            
+            <p id="final-percentage-display" class="percentage-display"></p>
+            
+            <p>Pontuação Total: <strong id="final-score-display">0</strong></p>
+
+            <label for="player-name">Seu Nome:</label>
+            <input type="text" id="player-name" placeholder="Digite seu nome (máx. 15 caracteres)" maxlength="15">
+            
+            <button id="btn-save-score" class="save-button">Salvar Pontuação e Ver Tabela</button>
+            
+            <button id="btn-restart-quiz" class="restart-button">Reiniciar Quiz</button>
+        </div>
+        </div>
+</main>
+
+ <script src="script.js" type="module"></script>   
+</body>
+</html>
